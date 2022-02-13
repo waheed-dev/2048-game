@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 4px;
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+    padding: 4px;
+    height: 100px;
+
+}
+
+.cell {
+    padding: 10px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+
+}
+
+.cell-2 {
+    background-color: rgb(253, 222, 179);
+}
+
+.cell-4 {
+    background-color: rgb(211, 161, 84);
+}
+
+.cell-8 {
+    background-color: rgb(255, 163, 128);
+}
+
+.cell-16 {
+    background-color: rgba(252, 104, 60, 0.82);
+}
+
+.cell-32 {
+    background-color: #ff5d5d
+}
+
+.cell-64 {
+    background-color: #ff2b2b
+}
+
+.cell-128 {
+    background-color: goldenrod;
+}
+
+.cell-256 {
+    background-color: #ffc438;
+}
+
+.cell-512 {
+    background-color: #ffc400;
+}
+
+.cell-1024 {
+    background-color: gold;
+}
+
+.cell-2048 {
+    background-color: yellow;
+}
